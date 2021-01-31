@@ -9,6 +9,8 @@
 
 // alert('fight');
 
+function niceDay(){ 
+
 var levelNow = prompt('what level filght');
 var message = '';
 
@@ -36,9 +38,17 @@ var imageNum = prompt('how many images do you want to print?');
 
 for(var i = 1 ; i <= imageNum; i++){
     if (order === 'blue') { colore = '<img src="images/blue.jpg"/>' }
+
+
     else if (order === 'black') { colore = '<img src="images/black.jpg" />' };
+
+    
     document.write(colore);
 }
+
+}
+
+niceDay(); 
 
 
 

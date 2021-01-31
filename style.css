@@ -1,0 +1,18 @@
+*{ margin: 0px;}
+header h1 {text-align: center;}
+header{background-color: rgba(60,100,020, 0.56);}
+
+header nav ul {list-style:none;margin-left: 5px;}
+
+header nav ul  li {display: inline-block; margin-left: 33px;}
+
+header nav ul li{display: inline-block; padding: 20px;}
+
+header nav ul li a{text-decoration:none; color: rgb(60, 62, 148);} 
+
+#mainParegraph{background-color: hsl(245, 19%, 74%);}
+
+main p{ color: hsl(245, 68%, 35%);}
+
+.pregraphs{color: rgb(20, 2, 5);}
+
